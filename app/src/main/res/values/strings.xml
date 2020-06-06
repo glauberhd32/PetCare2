@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">PetCare</string>
+    <string name="TxtViewUsuario">Usuario :</string>
+    <string name="DigiteoeuUsuario" />
+    <string name="Digite_Sua_Senha" />
+    <string name="Botao_Ir_Ate_Tela_Cadastrar">Cadastrar</string>
+    <string name="btn_Acessar">Acessar</string>
+    <string name="txt_Cadastrar_Usuario" />
+    <string name="txt_Cadastrar_Nome" />
+    <string name="txt_Numero_Telefone" />
+    <string name="txt_Cadastrar_Senha" />
+    <string name="txt_Cadastra_Senha_Repetir" />
+    <string name="btn_Finalizar_Cadastro">Cadastrar</string>
+    <string name="Btn_racao">Rações</string>
+    <string name="btn_Medicamento">Medicamentos</string>
+    <string name="btn_Acessorio">Acessórios</string>
+
+</resources>
