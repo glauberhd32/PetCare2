@@ -7,7 +7,7 @@
     tools:context=".CadastroActivity">
 
     <TextView
-        android:id="@+id/imageView12"
+        android:id="@+id/txtEnviarMedicamentoAntiPulga"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
@@ -32,7 +32,7 @@
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView12" />
+        app:layout_constraintTop_toBottomOf="@+id/txtEnviarMedicamentoAntiPulga" />
 
     <EditText
         android:id="@+id/txt_Cadastro_Nome"
@@ -46,7 +46,7 @@
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView12" />
+        app:layout_constraintTop_toBottomOf="@+id/txtEnviarMedicamentoAntiPulga" />
 
     <EditText
         android:id="@+id/txt_Cadastro_Telefone"
@@ -60,7 +60,7 @@
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView12" />
+        app:layout_constraintTop_toBottomOf="@+id/txtEnviarMedicamentoAntiPulga" />
 
     <EditText
         android:id="@+id/txt_Cadastrat_Senhar"
@@ -74,7 +74,7 @@
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView12" />
+        app:layout_constraintTop_toBottomOf="@+id/txtEnviarMedicamentoAntiPulga" />
 
     <EditText
         android:id="@+id/txt_Cadastrar_Senha_Repetir"
@@ -87,7 +87,7 @@
         android:text="@string/txt_Cadastra_Senha_Repetir"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView12" />
+        app:layout_constraintTop_toBottomOf="@+id/txtEnviarMedicamentoAntiPulga" />
 
     <Button
         android:id="@+id/btn_Finalizar_Cadastro"
@@ -97,6 +97,6 @@
         android:text="@string/btn_Finalizar_Cadastro"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView12" />
+        app:layout_constraintTop_toBottomOf="@+id/txtEnviarMedicamentoAntiPulga" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -17,6 +17,7 @@ public class CarrinhoActivity extends AppCompatActivity {
     private TextView txtRecebidoRacaoGato01;
     private TextView txtRecebidoRacaoPeixe01;
     private TextView txtRecebidoRacaoPassaro01;
+    private TextView txtRecebidoMedicamentoAntiPulga01;
     private Button botaoFinalizar;
 
 
@@ -48,6 +49,9 @@ public class CarrinhoActivity extends AppCompatActivity {
         String receberIntent4 = getIntent().getStringExtra("produto4");
         txtRecebidoRacaoPassaro01.setText(receberIntent4);
         //medicamento antipulga recebido
+        txtRecebidoMedicamentoAntiPulga01 = findViewById(R.id.txtRecebidoMedicamentoAntiPulga);
+        String receberIntent5 = getIntent().getStringExtra("produto5");
+        txtRecebidoMedicamentoAntiPulga01.setText(receberIntent5);
 
 
 
@@ -74,7 +78,8 @@ public class CarrinhoActivity extends AppCompatActivity {
         botaoFinalizar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-        Toast.makeText(getApplicationContext(),"Compra finalizada" ,Toast.LENGTH_LONG).show();
+                startActivity(new Intent(CarrinhoActivity.this,FinalizarCompraActivity.class));
+            Toast.makeText(getApplicationContext(),"Compra finalizada" ,Toast.LENGTH_LONG).show();
             }
         });
 

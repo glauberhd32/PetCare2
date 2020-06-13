@@ -104,7 +104,7 @@ public class MenuActivity extends AppCompatActivity {
         //icone
         dialog.setIcon(android.R.drawable.alert_dark_frame );
         // configura ação sim ou não
-        dialog.setPositiveButton("Comprar", new DialogInterface.OnClickListener() {
+        dialog.setPositiveButton("Confirmar", new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialogInterface, int i) {
                 Intent intent = new Intent(MenuActivity.this,CarrinhoActivity.class);
@@ -153,7 +153,7 @@ public class MenuActivity extends AppCompatActivity {
         //icone
         dialog.setIcon(android.R.drawable.alert_dark_frame );
         // configura ação sim ou não
-        dialog.setPositiveButton("Comprar", new DialogInterface.OnClickListener() {
+        dialog.setPositiveButton("Confirmar", new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialogInterface, int i) {
                 Intent intent2 = new Intent(MenuActivity.this,CarrinhoActivity.class);
@@ -179,7 +179,7 @@ public class MenuActivity extends AppCompatActivity {
         //icone
         dialog.setIcon(android.R.drawable.alert_dark_frame );
         // configura ação sim ou não
-        dialog.setPositiveButton("Comprar", new DialogInterface.OnClickListener() {
+        dialog.setPositiveButton("Confirmar", new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialogInterface, int i) {
                 Intent intent3 = new Intent(MenuActivity.this,CarrinhoActivity.class);
@@ -204,7 +204,7 @@ public class MenuActivity extends AppCompatActivity {
         //icone
         dialog.setIcon(android.R.drawable.alert_dark_frame );
         // configura ação sim ou não
-        dialog.setPositiveButton("Comprar", new DialogInterface.OnClickListener() {
+        dialog.setPositiveButton("Confirmar", new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialogInterface, int i) {
                 Intent intent4 = new Intent(MenuActivity.this,CarrinhoActivity.class);
